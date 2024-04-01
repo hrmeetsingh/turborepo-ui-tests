@@ -36,7 +36,10 @@ turbo dev
 ### Run e2e tests
 To run e2e tests, both apps need to be running on localhost
 This is achieved by chaining turbo pipeline commands like this
-`npx turbo dev test report`
+
+```
+npx turbo dev test report
+```
 
 The server will remain running after running tests, I am working on figuring out how to stop servers once tests finish
 
