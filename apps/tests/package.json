@@ -4,7 +4,8 @@
   "description": "Tests for the monorepo are here",
   "main": "index.js",
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "report": "playwright show-report"
   },
   "author": "",
   "license": "ISC",
